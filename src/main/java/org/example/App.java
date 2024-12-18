@@ -26,6 +26,22 @@ public class App
 
         System.out.println(hugeAmount);
 
+        // bool logic operators
+        boolean a = true;
+        boolean b = false;
+        boolean c = a | b; //true
+        boolean d = a & b; //false
+        boolean e = a ^ b; //true
+        boolean f = (!a & b) | (a & !b); //true
+        boolean g = !a; //false
+
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+
+
 
 
 
